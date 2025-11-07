@@ -16,8 +16,10 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 dependencies = [
+    "catboost>=1.2.8",
     "ipython",
     "jupyterlab",
+    "lightgbm>=4.6.0",
     "loguru",
     "matplotlib",
     "mkdocs",
