@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Data and models (mounted as volumes)
+data/
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Keep model directory structure
+!models/.gitkeep
+
+# Notebooks
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Documentation
+docs/
+# *.md  # Commented out - README.md needed for pyproject.toml
+# !README.md
+
+# Reports and figures
+reports/
+references/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Lock files (optional - depends on your deployment strategy)
+uv.lock
