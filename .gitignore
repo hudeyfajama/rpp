@@ -1,6 +1,13 @@
 # Data
 /data/
 
+# Models (too large for git)
+/models/*.pkl
+/models/*.joblib
+/models/*.h5
+/models/*.pt
+/models/*.pth
+
 # Mac OS-specific storage files
 .DS_Store
 

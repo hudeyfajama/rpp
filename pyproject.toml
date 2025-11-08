@@ -17,6 +17,7 @@ classifiers = [
 ]
 dependencies = [
     "catboost>=1.2.8",
+    "fastapi[standard]>=0.121.0",
     "ipython",
     "jupyterlab",
     "lightgbm>=4.6.0",
